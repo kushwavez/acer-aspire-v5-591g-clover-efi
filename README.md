@@ -7,6 +7,7 @@
 
 <p align="center"><b>Acer Aspire V5-591G-XXXX</b></p>
 <p align=center>macOS Install Instructions (Clover v5130)</p>
+<p>For specs, notes, other informations see the linked Insanelymac guide</p>
 
 You have two folders inside this git:
 - <b>bootpack</b>: That is needed for the Installer USB and for the system EFI after a finished
@@ -62,3 +63,4 @@ BrcmBluetoothInjector, BrcmFirmwareData, BrcmPatchRAM3 kexts to
 <p align=center>Insanelymac - @kushwavez</p>
 <p align=center>GitHub - kushwavez</p>
 <p align=center>Reddit - u/kushwavez</p>
+<p align=center>Hungary 🇭🇺</p>
