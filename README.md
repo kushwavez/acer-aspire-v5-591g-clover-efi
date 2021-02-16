@@ -6,7 +6,7 @@
 </p>
 
 <p align="center"><b>Acer Aspire V5-591G-XXXX</b></p>
-<p align=center>macOS Install Instructions</p>
+<p align=center>macOS Install Instructions (Clover v5130)</p>
 
 You have two folders inside this git:
 - <b>bootpack</b>: That is needed for the Installer USB and for the system EFI after a finished
@@ -57,7 +57,7 @@ BrcmBluetoothInjector, BrcmFirmwareData, BrcmPatchRAM3 kexts to
 - If everything is installed, you need to rebuild permissions & kextcache, and restart your system. Hackintool is a good application for this.
 
 <p align=center>That’s it!</p>
-<p align=center><b>Happy Hackintoshing!</b></p>
+<p align=center><b> Happy Hackintoshing! </b></p>
 <p align=center>2021</p>
 <p align=center>Insanelymac - @kushwavez</p>
 <p align=center>GitHub - kushwavez</p>
