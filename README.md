@@ -16,14 +16,14 @@ combo jack
 
 ## Installation:
 - Create a macOS USB Installer with any method you now.
- - For Sierra and older you need to use the official .dmg from Apple’s website.
+    - For Sierra and older you need to use the official .dmg from Apple’s website.
 - Mount your USB’s EFI and paste my CLOVER and BOOT folder from my bootpack
 folder to it
- - On Windows you can mount your USB’s EFI with MiniTool Partition Wizard
-  - Open MiniTool, select your USB drive’s EFI partition, right click, select “Change Letter”, Click OK, Apply, OK
-  - After that you can manage the EFI using Explorer++ in administrator mode
- - On macOS you can use Terminal to mount, or use EFI Mountain Snow.app to mount your USB EFI
- - If there is no EFI folder inside the EFI partition you need to create that first
+    - On Windows you can mount your USB’s EFI with MiniTool Partition Wizard
+        - Open MiniTool, select your USB drive’s EFI partition, right click, select “Change Letter”, Click OK, Apply, OK
+    - After that you can manage the EFI using Explorer++ in administrator mode
+    - On macOS you can use Terminal to mount, or use EFI Mountain Snow.app to mount your USB EFI
+    - If there is no EFI folder inside the EFI partition you need to create that first
  
 Example Structure:
 <p align=center>
@@ -31,10 +31,10 @@ Example Structure:
 </p>
 
 - After finished, next step is to boot the Installer USB
- - I suggest to boot with config_debug.plist because if anything will go wrong you’ll see the logs of what causing that. 
-  - In Clover press NUM 0 or select “Options” below the partitions, select “Configs”, then select “config_debug.plist” 
+    - I suggest to boot with config_debug.plist because if anything will go wrong you’ll see the logs of what causing that. 
+    - In Clover press NUM 0 or select “Options” below the partitions, select “Configs”, then select “config_debug.plist” 
 - Install macOS 
- - Don’t forget to boot from your USB after restarts o If you install Big Sur boot from Preboot only! 
+    - Don’t forget to boot from your USB after restarts o If you install Big Sur boot from Preboot only! 
 - After installing you need to mount your USB’s EFI and your System Drive’s EFI then copy the CLOVER and BOOT folder to your System Drive’s EFI  o (again, if there is no EFI folder, you need to create it first) 
 - Unmount and remove your USB Installer and restart your system 
 
@@ -42,12 +42,12 @@ Example Structure:
 - For working audio and wifi (if you have BCM94352Z), you need to install some kexts after the Installation
 - For working Combo Jack audio, you need to install CodecCommander and 
 ALCPlugFix 
- - Go to “postinstall/ALCPlugFix” folder, install CodecCommander.kext to 
+    - Go to “postinstall/ALCPlugFix” folder, install CodecCommander.kext to 
  “/Library/Extensions/”, then install ALCPlugFix with install.sh
-  - (navigate to the “postinstall/ALCPlugFix” folder with Terminal, then open install.sh with sudo ./install.sh) 
- - After installing, the system will ask you if it’s okay to run ALCPlugFix, 
+        - (navigate to the “postinstall/ALCPlugFix” folder with Terminal, then open install.sh with sudo ./install.sh) 
+    - After installing, the system will ask you if it’s okay to run ALCPlugFix, 
  Allow it 
-  - If there is no Allow or Open (Unidentified developer) option navigate to the installed “ALCPlugFix” file in Finder, Right Click and 
+    - If there is no Allow or Open (Unidentified developer) option navigate to the installed “ALCPlugFix” file in Finder, Right Click and 
   Open it that way first, you can allow it then. Same for “hda-verb” (you may need to open it twice) 
 - For WiFi if you have BCM94352Z you need to install AirportBrcmFixup, 
 BrcmBluetoothInjector, BrcmFirmwareData, BrcmPatchRAM3 kexts to 
