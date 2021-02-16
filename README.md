@@ -34,8 +34,10 @@ Example Structure:
     - I suggest to boot with config_debug.plist because if anything will go wrong you’ll see the logs of what causing that. 
     - In Clover press NUM 0 or select “Options” below the partitions, select “Configs”, then select “config_debug.plist” 
 - Install macOS 
-    - Don’t forget to boot from your USB after restarts o If you install Big Sur boot from Preboot only! 
-- After installing you need to mount your USB’s EFI and your System Drive’s EFI then copy the CLOVER and BOOT folder to your System Drive’s EFI  o (again, if there is no EFI folder, you need to create it first) 
+    - Don’t forget to boot from your USB after restarts 
+        - If you install Big Sur boot from Preboot only! 
+- After installing you need to mount your USB’s EFI and your System Drive’s EFI then copy the CLOVER and BOOT folder to your System Drive’s EFI  
+    - (again, if there is no EFI folder, you need to create it first) 
 - Unmount and remove your USB Installer and restart your system 
 
 ## Post Installation
