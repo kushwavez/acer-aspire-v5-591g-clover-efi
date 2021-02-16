@@ -42,6 +42,7 @@ Example Structure:
 - Unmount and remove your USB Installer and restart your system 
 
 ## Post Installation
+- Open up your config.plist with Clover Configurator.app, on SMBIOS tab, generate new SMBIOS, then you can log-in to iServices now
 - For working audio and wifi (if you have BCM94352Z), you need to install some kexts after the Installation
 - For working Combo Jack audio, you need to install CodecCommander and 
 ALCPlugFix 
