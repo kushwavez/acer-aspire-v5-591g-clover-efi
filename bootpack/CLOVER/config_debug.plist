@@ -18,13 +18,6 @@
 				<true/>
 			</dict>
 		</dict>
-		<key>#SortedOrder</key>
-		<array>
-			<string>SSDT-UIAC.aml</string>
-			<string>SSDT.aml</string>
-			<string>SSDT-DiscreteSpoof.aml</string>
-			<string>SSDT-PNLF.aml</string>
-		</array>
 		<key>DisabledAML</key>
 		<array>
 			<string>DSDT_work.aml</string>
@@ -150,12 +143,6 @@
 			<key>Mirror</key>
 			<false/>
 		</dict>
-		<key>#Hide</key>
-		<array>
-			<string>Preboot</string>
-		</array>
-		<key>#Theme</key>
-		<string>bootcamp</string>
 		<key>Scan</key>
 		<dict>
 			<key>Tool</key>
@@ -218,8 +205,6 @@
 		<true/>
 		<key>Debug</key>
 		<true/>
-		<key>#ForceKextsToLoad</key>
-		<array/>
 		<key>AppleIntelCPUPM</key>
 		<false/>
 		<key>KernelLapic</key>
@@ -368,9 +353,5 @@
 		<key>XhciPortLimit</key>
 		<true/>
 	</dict>
-	<key>#DisableDrivers</key>
-	<array>
-		<string>VBoxHfs</string>
-	</array>
 </dict>
 </plist>
