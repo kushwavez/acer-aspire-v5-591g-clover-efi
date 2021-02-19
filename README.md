@@ -7,6 +7,8 @@
 
 <p align="center"><b>Acer Aspire V5-591G-XXXX</b></p>
 <p align=center>macOS Install Instructions (Clover v5130)</p>
+
+[简体中文说明](https://github.com/kushwavez/acer-aspire-v5-591g-clover-efi/README_zh-cn.md)
 <p>For specs, notes, other informations see the linked Insanelymac guide</p>
 
 You have two folders inside this git:
