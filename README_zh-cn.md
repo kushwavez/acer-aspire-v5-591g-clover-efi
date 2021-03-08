@@ -6,7 +6,7 @@
 </p>
 
 <p align="center"><b>Acer Aspire V5-591G-XXXX</b></p>
-<p align=center>macOS 安装指南 (Clover v5130)</p>
+<p align=center>macOS 安装指南</p>
 <p>有关详细的参数、方法与安装注意事项，请参阅 Insanelymac</p>
 
 在此项目中，存在两个重要的文件夹：
